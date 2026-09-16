@@ -1,6 +1,6 @@
 # Phreaky-htb-med(pcap-smtp(email exfiltration))
 
-![image.png](Phreaky-htb-med(pcap-smtp(email%20exfiltration))/image.png)
+![image.png](Phreaky-htb-med%28pcap-smtp%28email%20exfiltration%29%29/image.png)
 
 - `192.168.68.108 (phreak-ubuntu01)` gửi nhiều email qua **SMTP** tới `192.168.68.111 (mailserver-phreak)`.
 - Mỗi email có:
@@ -10,7 +10,7 @@
 
 Tiếp đến mình tab message thì thấy có mật khẩu kèm theo mỗi file zip
 
-![image.png](Phreaky-htb-med(pcap-smtp(email%20exfiltration))/image%201.png)
+![image.png](Phreaky-htb-med%28pcap-smtp%28email%20exfiltration%29%29/image%201.png)
 
 Bây giờ mình sẽ unzip từng file ra xem có j bên trong
 
@@ -25,6 +25,6 @@ phreaks_plan.pdf.part12  phreaks_plan.pdf.part2   phreaks_plan.pdf.part6
 
 Sau khi giải nén thì mình thấy có vẻ như có 1 file pdf bị chia thành nhiều phần tiếp mình sẽ nối và đọc thử
 
-![image.png](Phreaky-htb-med(pcap-smtp(email%20exfiltration))/image%202.png)
+![image.png](Phreaky-htb-med%28pcap-smtp%28email%20exfiltration%29%29/image%202.png)
 
 HTB{Th3Phr3aksReadyT0Att4ck}

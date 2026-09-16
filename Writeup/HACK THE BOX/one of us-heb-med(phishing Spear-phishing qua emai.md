@@ -1,6 +1,6 @@
 # one of us-heb-med(phishing / Spear-phishing qua email đính kèm tài liệu Word độc hại (.docm) macro-based spyware / Outlook exfiltration malware)
 
-![image.png](one%20of%20us-heb-med(phishing%20Spear-phishing%20qua%20emai/image.png)
+![image.png](one%20of%20us-heb-med%28phishing%20Spear-phishing%20qua%20emai/image.png)
 
 bài này cung cấp cho mình 1 file word và 1 email
 
