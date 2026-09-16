@@ -1,14 +1,14 @@
 # sleepingshark
 
-![image.png](Gyul%20Box-dreamhack-1/Binary%20Badresources-htb-med/image.png)
+![image.png](sleepingshark/image.png)
 
 - Bài cung cấp cho chúng ta 1 file pcap
 
-![image.png](Gyul%20Box-dreamhack-1/Binary%20Badresources-htb-med/image%201.png)
+![image.png](sleepingshark/image%201.png)
 
 - Chúng ta sẽ thấy có gói tin có nội dung lạ là một url encode nên mk sẽ decode thử
 
-![image.png](Gyul%20Box-dreamhack-1/Binary%20Badresources-htb-med/image%202.png)
+![image.png](sleepingshark/image%202.png)
 
 - Ở đây chúng ta có thể hiểu đơn giản nó là câu lệnh payload tấn công nó sẽ check 1 ki tu nào của flag và nếu đúng thì sẽ phản hồi chậm lại 3s
 - Vậy thì bây giờ chúng ta sẽ kiểm tra xem gói tin nào gửi chậm 3s thì đó sẽ là những kí tự đúng của flag, đối vưới bài này thì mình sẽ dùng python để nốt các kitu

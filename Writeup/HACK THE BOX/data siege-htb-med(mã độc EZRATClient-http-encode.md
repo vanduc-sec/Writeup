@@ -1,28 +1,28 @@
 # data siege-htb-med(mã độc EZRATClient-http-encode tcp payload)
 
-![image.png](Diagnostic-hackthebox-easy/An%20unusual%20sighting-ctftryout-hackthebox/image.png)
+![image.png](data%20siege-htb-med(m%C3%A3%20%C4%91%E1%BB%99c%20EZRATClient-http-encode%20/image.png)
 
 Bài này chúng ta nhận được 1 file pcap khi mở file pcap này lên và thoe dõi http stream chúng ta sẽ thấy có truy cập vào thư mục gì đó và có 1 file .exe được yêu cầu
 
-![image.png](Diagnostic-hackthebox-easy/An%20unusual%20sighting-ctftryout-hackthebox/image%201.png)
+![image.png](data%20siege-htb-med(m%C3%A3%20%C4%91%E1%BB%99c%20EZRATClient-http-encode%20/image%201.png)
 
 Để đây đã chưa có gì lắm, tiêp khi mà follow theo http stream mọi người sẽ thấy là có 1 đoạn mã từ máy nạn chân yêu cầu tải file exe về và file đấy là 1 file dạng thực thi bắt đầu có vấn đề về fiel này r đó
 
-![image.png](Diagnostic-hackthebox-easy/An%20unusual%20sighting-ctftryout-hackthebox/image%202.png)
+![image.png](data%20siege-htb-med(m%C3%A3%20%C4%91%E1%BB%99c%20EZRATClient-http-encode%20/image%202.png)
 
 Tiếp đến là follow tcp mình thử thì mọi ngừi sẽ tháy đoạn đầu thì có vẻ chúng ta còn đcọ được nhưng mà về sau thì  nó sẽ là deocde hex thì ra base64 decode base64 thì ra rác nên là tiêp tục không khai thác đc gì tiếp
 
-![image.png](Diagnostic-hackthebox-easy/An%20unusual%20sighting-ctftryout-hackthebox/image%203.png)
+![image.png](data%20siege-htb-med(m%C3%A3%20%C4%91%E1%BB%99c%20EZRATClient-http-encode%20/image%203.png)
 
 Giowf mình quay sang die để xem file exe
 
-![image.png](zombienet-htb-med%28disk-openWrt%20router-maintain%20acc/image%204.png)
+![image.png](data%20siege-htb-med(m%C3%A3%20%C4%91%E1%BB%99c%20EZRATClient-http-encode%20/image%204.png)
 
 nó đc viết bằng c# mình dùng dnspy để mở
 
-![image.png](zombienet-htb-med%28disk-openWrt%20router-maintain%20acc/image%205.png)
+![image.png](data%20siege-htb-med(m%C3%A3%20%C4%91%E1%BB%99c%20EZRATClient-http-encode%20/image%205.png)
 
-![image.png](zombienet-htb-med%28disk-openWrt%20router-maintain%20acc/image%206.png)
+![image.png](data%20siege-htb-med(m%C3%A3%20%C4%91%E1%BB%99c%20EZRATClient-http-encode%20/image%206.png)
 
 Ở đay mọi người thấy nó là mã nguồn có tên EZRATClient là một lại mã độc hại mọi người có thể đọc thêm bên dưới
 
@@ -38,7 +38,7 @@ Very_S3cr3t_S
 
 còn encrypt key thì mọi người lần theo hàm encrypkey là đc
 
-![image.png](zombienet-htb-med%28disk-openWrt%20router-maintain%20acc/image%207.png)
+![image.png](data%20siege-htb-med(m%C3%A3%20%C4%91%E1%BB%99c%20EZRATClient-http-encode%20/image%207.png)
 
 giờ mk sẽ viết code decrypt 1 phần của server - máy nạn nhân
 

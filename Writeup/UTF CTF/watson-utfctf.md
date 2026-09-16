@@ -1,6 +1,6 @@
 # watson-utfctf
 
-![image.png](Last%20Byte%20Standing-utfctf/image.png)
+![image.png](watson-utfctf/image.png)
 
 Bài này cung cấp cho chúng ta khá nhiều file và 1 triage files 
 
@@ -303,7 +303,7 @@ nghĩa là:
 
 Mình sẽ vào recycle nơi lưu những file đã xóa để tìm file word
 
-![image.png](Last%20Byte%20Standing-utfctf/image%201.png)
+![image.png](watson-utfctf/image%201.png)
 
 Ở đây mọi người sẽ thấy có file word R07YGFU bên trong có file dự án HOOKEM khá là khớp với miêu tả của pass checkpoint A rồi
 
@@ -327,11 +327,11 @@ pr1v473_3y3%                                                                    
 
 Đầu tiên thì vì đẻ tìm file exe thì mình vào prefetch 
 
-![image.png](Last%20Byte%20Standing-utfctf/image%202.png)
+![image.png](watson-utfctf/image%202.png)
 
 Ở đây mk có thấy fiel calc.exe khá đang nghi nó như là giải dạng fiel caculater.exe của máy tính nạn nhân nhưng mà vì pf thì thường không có sha1 nên mình nghĩ đến amcache.hve vì nó sẽ lưu khá nh thứ của file
 
-![image.png](Last%20Byte%20Standing-utfctf/image%203.png)
+![image.png](watson-utfctf/image%203.png)
 
 Vào inventrory file mọi người sẽ thấy ngay đường dẫn của fiel này chắc chắc có vấn đề tiếp đó là có sha1 luôn 
 

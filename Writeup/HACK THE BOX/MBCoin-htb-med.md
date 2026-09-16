@@ -1,6 +1,6 @@
 # MBCoin-htb-med
 
-![image.png](Diagnostic-hackthebox-easy/An%20unusual%20sighting-ctftryout-hackthebox/image.png)
+![image.png](MBCoin-htb-med/image.png)
 
 Bài này cung cấp cho mình 1 file doc và 1 file pcap giờ mình kiểm tra file doc trước
 
@@ -78,7 +78,7 @@ Nói ngắn gọn: **Word macro dropper** tạo và chạy **giai đoạn 2 là 
 
 Tiếp giờ mình mở file word lên và xem ở all tert vì đây la nơi lưu các đonạ mã hóa
 
-![image.png](Diagnostic-hackthebox-easy/An%20unusual%20sighting-ctftryout-hackthebox/image%201.png)
+![image.png](MBCoin-htb-med/image%201.png)
 
 `pin.vbs` tiếp tục nó download 5 url về sau đó. Script này tạo nhiều lệnh PowerShell bị obfuscate, dùng để đọc các file `C:\ProgramData\www1.dll` đến `C:\ProgramData\www5.dll`, rồi giải mã chúng bằng phép **XOR với khóa lặp lại**. Kết quả giải mã được ghi thành `C:\ProgramData\www.dll`.
 
@@ -170,6 +170,6 @@ Vì script chạy:
 rundll32.exe C:\ProgramData\www.dll,ldr
 ```
 
-![image.png](Diagnostic-hackthebox-easy/An%20unusual%20sighting-ctftryout-hackthebox/image%202.png)
+![image.png](MBCoin-htb-med/image%202.png)
 
 HTB{wH4tS_4_sQuirReLw4fFl3?}

@@ -1,6 +1,6 @@
 # landfall-utfctf
 
-![image.png](Last%20Byte%20Standing-utfctf/image.png)
+![image.png](landfall-utfctf/image.png)
 
 Bài này cung cấp cho chúng ta 4 file 2 file txt 1 file zip và 1 file KAPE đối với 2 file text
 
@@ -58,7 +58,7 @@ Khi gặp đề như này, bạn nên nghĩ theo chuỗi:
 
 Chứ không nên mở ngẫu nhiên mọi file trong zip.
 
-![image.png](Last%20Byte%20Standing-utfctf/image%201.png)
+![image.png](landfall-utfctf/image%201.png)
 
 Đầu tiên mình vào với user là administrator  mình vào xem bằng đường dẫn
 
@@ -70,7 +70,7 @@ Tiếp đến là mình kahi thác tiếp vào người dùng john
 
 C\Users\jon\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadline\consolehost_history.txt
 
-![image.png](Last%20Byte%20Standing-utfctf/image%202.png)
+![image.png](landfall-utfctf/image%202.png)
 
 Ở đây khi mà vòa thì mình thấy khá nhiều đoạn đã bị encode base64 rất giống với yêu cầu đề bài nên là ở đây thì mình sẽ tiếp tục decode lần lượt từng chuỗi base64 này xem có gì ở những chuỗi base64 này không
 

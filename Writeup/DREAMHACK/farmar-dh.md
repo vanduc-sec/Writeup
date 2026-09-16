@@ -1,6 +1,6 @@
 # farmar-dh
 
-![image.png](Gyul%20Box-dreamhack-1/Binary%20Badresources-htb-med/image.png)
+![image.png](farmar-dh/image.png)
 
 - `open(...,"rb")`: mở file ảnh PNG ở chế độ **binary**
 - `data = f.read()`: đọc toàn bộ file vào RAM
@@ -16,7 +16,7 @@
 
 Bài cung cấp cho chúng ta 1 file linux rev mình sẽ mở nó lên bằng autopsy\
 
-![image.png](Gyul%20Box-dreamhack-1/Binary%20Badresources-htb-med/image%201.png)
+![image.png](farmar-dh/image%201.png)
 
 Ở đây mọi người sẽ thấy có 1 file binary và 10 file ảnh mình sẽ extract toàn bộ
 
@@ -128,7 +128,7 @@ end
 
 ```
 
-![image.png](Gyul%20Box-dreamhack-1/Binary%20Badresources-htb-med/image%202.png)
+![image.png](farmar-dh/image%202.png)
 
 Sau khi chạy mọi người sẽ nhận được file [mapping.py](http://mapping.py) dùng nó để recover lại các file png là được
 

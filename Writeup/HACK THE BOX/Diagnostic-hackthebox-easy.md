@@ -1,6 +1,6 @@
 # Diagnostic-hackthebox-easy
 
-![image.png](Diagnostic-hackthebox-easy/An%20unusual%20sighting-ctftryout-hackthebox/image.png)
+![image.png](Diagnostic-hackthebox-easy/image.png)
 
 - Chúng ta sẽ bắt đầu tải về bằng lệnh: wget [http://83.136.250.108:39124/layoffs.doc](http://83.136.250.108:39124/layoffs.doc) , dựa vào host đề bài cho và ở phần miêu tả.
 - Đối với những bài liên quan đến file office như này thì ae nên dùng oletools, lúc đầu mình có làm theo cách giải nén ra nhưng mà lú quá nó khá nhiều file á nên thôi chúng ta sẽ dùng oletools để làm bài này.
@@ -49,7 +49,7 @@ Found relationship 'oleObject' with external link [http://diagnostic.htb:39124/2
 
 [http://83.136.250.108:39124/223_index_style_fancy.html](http://83.136.250.108:39124/223_index_style_fancy.html) 
 
-![image.png](Diagnostic-hackthebox-easy/An%20unusual%20sighting-ctftryout-hackthebox/image%201.png)
+![image.png](Diagnostic-hackthebox-easy/image%201.png)
 
 - Ko thấy gì nên mình sẽ xem thử view page source bằng cách nhấp chuột phải và chọn hoặc ctrl+u
 
@@ -57,7 +57,7 @@ Found relationship 'oleObject' with external link [http://diagnostic.htb:39124/2
 |  |  |
 - Chúng ta sẽ nhận được đoạn mã base64 mọi người hãy thử decode ra, mọi người có thể lên cyberchef để decode nhé
 
-![image.png](Diagnostic-hackthebox-easy/An%20unusual%20sighting-ctftryout-hackthebox/image%202.png)
+![image.png](Diagnostic-hackthebox-easy/image%202.png)
 
 - Ở đây mình sẽ chỉ decode đoạn đầu vì đoạn sau mình decode ra thì nó cũng không có j hết, ở đây chúng ta sẽ thấy là mình chỉ cần ghép mảng các chữ cái  theo file.
 

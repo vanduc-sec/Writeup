@@ -1,10 +1,10 @@
 # Cold Workspace-utfctf
 
-![image.png](Last%20Byte%20Standing-utfctf/image.png)
+![image.png](Cold%20Workspace-utfctf/image.png)
 
 Đầu tiên bài cung cấp cho mình file .dmp mình dùng lệnh file check thử
 
-![image.png](Last%20Byte%20Standing-utfctf/image%201.png)
+![image.png](Cold%20Workspace-utfctf/image%201.png)
 
 - file báo *MS Windows 64bit crash dump* vì nó thấy **magic/header giống dump**
 - nhưng các trường phía sau lại **vô lý hoàn toàn**:
@@ -22,7 +22,7 @@ Thêm nữa:
 - kích thước chỉ **534 kB** → quá nhỏ để là memory dump Windows có ý nghĩa
 - 
 
-![image.png](Last%20Byte%20Standing-utfctf/image%202.png)
+![image.png](Cold%20Workspace-utfctf/image%202.png)
 
 Với đoạn hex bạn đưa trước đó:
 
@@ -59,7 +59,7 @@ strings -a -n 6 cold-workspace.dmp | grep -E '[A-Za-z]'
 
 khi dùng strings mọi người sẽ thấy cso đoạn tin nhắn base64 rất lạ với nội dung env_block_start
 
-![image.png](Last%20Byte%20Standing-utfctf/image%203.png)
+![image.png](Cold%20Workspace-utfctf/image%203.png)
 
 Ở đây sẽ thấy có ba cái enck encv encd với k=key v=iv mình đoán rất giống mã hóa aes-256-cbc nên mình sẽ đem nó ra hex và decode thử xem
 
@@ -71,6 +71,6 @@ ENCK: 0d d7 f8 04 2b 2c 86 a1 47 27 15 cf af 95 fa 30 b3 ce 1a d2 13 02 65 ca dd
 
 ENCV: c5 7a 46 c2 ea 2a 8a 18 3f 40 71 53 33 6c 8c c4
 
-![image.png](Last%20Byte%20Standing-utfctf/image%204.png)
+![image.png](Cold%20Workspace-utfctf/image%204.png)
 
 FLAG:utflag{m3m0ry_r3t41ns_wh4t_d1sk_l053s}

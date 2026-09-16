@@ -1,10 +1,10 @@
 # half awake-utfctf
 
-![image.png](Last%20Byte%20Standing-utfctf/image.png)
+![image.png](half%20awake-utfctf/image.png)
 
 Bài này cung cấp cho mình 1 fiel pcap 
 
-![image.png](Last%20Byte%20Standing-utfctf/image%201.png)
+![image.png](half%20awake-utfctf/image%201.png)
 
 sau khi mở lên vào http stream thì mọi người sẽ thấy có 1 số gợi ý
 
@@ -44,7 +44,7 @@ Hai byte đầu `PK` thường là dấu hiệu của **ZIP format**.
 
 Tiếp mọi người sẽ thấy trong file pcap có tls với khá nhiều gói tin lạ
 
-![image.png](Last%20Byte%20Standing-utfctf/image%202.png)
+![image.png](half%20awake-utfctf/image%202.png)
 
 Ở đây mọi người sẽ thấy có những gói tin rất giống với file zip vì có pk nên mình sẽ dùng tshark để tách nó ra 1 file để xem
 
@@ -52,7 +52,7 @@ Tiếp mọi người sẽ thấy trong file pcap có tls với khá nhiều gó
 tshark -r half-awake.pcap -Y "frame.number==36" -T fields -e tcp.payload | tr -d ':\n' | xxd -r -p > 1.zip
 ```
 
-![image.png](Last%20Byte%20Standing-utfctf/image%203.png)
+![image.png](half%20awake-utfctf/image%203.png)
 
 Nhìn vào chỗ này có thể thấy ở các vị trí chẵn thì các ký tự là rác dạng rawbyte có vẻ như bị xor nhưng mà do biết format flag là utflag{} thì chúng ta có thể cắt vị trí chẵn ra và dùng thử brutce-force key xor tìm flag
 
@@ -80,6 +80,6 @@ for key in range(256):
 
 ```
 
-![image.png](Last%20Byte%20Standing-utfctf/image%204.png)
+![image.png](half%20awake-utfctf/image%204.png)
 
 flag: utflag{h4lf_aw4k3_s33_th3_pr0t0c0l_tr1ck}

@@ -1,12 +1,12 @@
 # EZ-Des- dreamhack
 
-![image.png](Gyul%20Box-dreamhack-1/Binary%20Badresources-htb-med/image.png)
+![image.png](EZ-Des-%20dreamhack/image.png)
 
 - Sau khi tải về mọi người sẽ nhận được 3 file
 
  
 
-![image.png](Gyul%20Box-dreamhack-1/Binary%20Badresources-htb-med/image%201.png)
+![image.png](EZ-Des-%20dreamhack/image%201.png)
 
 - Bài sẽ cho chúng ta 1 web để tải file ciphertext.txt và keys.txt. Mỗi block 8 byte (DES) — tổng cộng **50 block** (400 bytes)
 - Mã hóa mỗi block bằng **“Triple‑DES EDE” nhưng 3 lần dùng cùng một key** → thực chất chỉ còn **Single DES (ECB)** cho từng block
@@ -23,7 +23,7 @@ Sắp xếp theo **vị trí hiện tại** (vì ciphertext giữ thứ tự b
 
 mọi người sẽ chuyển file ciphertext.txt mình có thành dạng hex và lưu cipher1.txt nhé.
 
-![image.png](Gyul%20Box-dreamhack-1/Binary%20Badresources-htb-med/image%202.png)
+![image.png](EZ-Des-%20dreamhack/image%202.png)
 
 ```python
 from Crypto.Cipher import DES

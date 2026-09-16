@@ -1,10 +1,10 @@
 # Silicon Data Sleuthing-ctftryout-hackthebox
 
-![image.png](Diagnostic-hackthebox-easy/An%20unusual%20sighting-ctftryout-hackthebox/image.png)
+![image.png](Silicon%20Data%20Sleuthing-ctftryout-hackthebox/image.png)
 
 - Đối với bài này thì mọi người sẽ nhận được 1 file bin, bản chất của nó chính  là 1 file nén zip chứa thông tin về cái router đó, mọi người dùng : binwalk -e chal_router_dump.bin
 
-![image.png](Diagnostic-hackthebox-easy/An%20unusual%20sighting-ctftryout-hackthebox/image%201.png)
+![image.png](Silicon%20Data%20Sleuthing-ctftryout-hackthebox/image%201.png)
 
 - Chúng ta sẽ kết nối đến ip và port mà bài cung cấp xem mình phải làm gì.
 
@@ -26,7 +26,7 @@ What version of OpenWRT runs on the router (ex: 21.02.0)
 > 
 - Ở đây nó yêu cầu chúng ta cung cấp phiên bản của cái router này, thương thông tin phiên bản này sẽ nằm trong  /squashfs-root/etc/banner, mọi người dùng lệnh cat đọc file banner là được
 
-![image.png](Diagnostic-hackthebox-easy/An%20unusual%20sighting-ctftryout-hackthebox/image%202.png)
+![image.png](Silicon%20Data%20Sleuthing-ctftryout-hackthebox/image%202.png)
 
 What version of OpenWRT runs on the router (ex: 21.02.0)
 
@@ -40,7 +40,7 @@ What is the Linux kernel version (ex: 5.4.143)
 > 
 - Câu này nó hỏi về phiên bản hạt nhân của linux cái này nó sẽ nằm trong lib/modules/
 
-![image.png](Diagnostic-hackthebox-easy/An%20unusual%20sighting-ctftryout-hackthebox/image%203.png)
+![image.png](Silicon%20Data%20Sleuthing-ctftryout-hackthebox/image%203.png)
 
 What is the Linux kernel version (ex: 5.4.143)
 

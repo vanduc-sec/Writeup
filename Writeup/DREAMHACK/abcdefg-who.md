@@ -1,6 +1,6 @@
 # abcdefg-who
 
-![image.png](Gyul%20Box-dreamhack-1/Binary%20Badresources-htb-med/image.png)
+![image.png](abcdefg-who/image.png)
 
 - Đầu tiên chúng ta sẽ thử đọc file txt mà bài cung cấp xem sao: cat  access_method.txt
 

@@ -1,26 +1,26 @@
 # please recover my file -dh
 
-![image.png](Gyul%20Box-dreamhack-1/Binary%20Badresources-htb-med/image.png)
+![image.png](please%20recover%20my%20file%20-dh/image.png)
 
 Bài này cung cấp cho mình 1 file data mình check bằng vol3 banners thì biết được là linux nên mình sẽ tải kernel bản này về
 
-![image.png](Gyul%20Box-dreamhack-1/Binary%20Badresources-htb-med/image%201.png)
+![image.png](please%20recover%20my%20file%20-dh/image%201.png)
 
 ở đây mình check linux.bash.Bash
 
-![image.png](Gyul%20Box-dreamhack-1/Binary%20Badresources-htb-med/image%202.png)
+![image.png](please%20recover%20my%20file%20-dh/image%202.png)
 
 Sau khi thấy có ./su mình sẽ tìm nó bằng psscan và  khoanh vùng nó bằng vol3 -f chall.raw linux.proc.Maps --pid 
 
-![image.png](Gyul%20Box-dreamhack-1/Binary%20Badresources-htb-med/image%203.png)
+![image.png](please%20recover%20my%20file%20-dh/image%203.png)
 
-![image.png](Gyul%20Box-dreamhack-1/Binary%20Badresources-htb-med/image%204.png)
+![image.png](please%20recover%20my%20file%20-dh/image%204.png)
 
 Ở đây mọi người sẽ tháy có debidan.log và flag rất khả nghi, nên mình sẽ dump nó ra vol3 -f chall.raw -o dumps linux.proc.Maps --pid 2261 --dump
 
-![image.png](Gyul%20Box-dreamhack-1/Binary%20Badresources-htb-med/image%205.png)
+![image.png](please%20recover%20my%20file%20-dh/image%205.png)
 
-![image.png](Gyul%20Box-dreamhack-1/Binary%20Badresources-htb-med/image%206.png)
+![image.png](please%20recover%20my%20file%20-dh/image%206.png)
 
 ![image.png](please%20recover%20my%20file%20-dh/image%207.png)
 

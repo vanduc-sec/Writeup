@@ -1,10 +1,10 @@
 # windowpool-dh
 
-![image.png](Gyul%20Box-dreamhack-1/Binary%20Badresources-htb-med/image.png)
+![image.png](windowpool-dh/image.png)
 
 - Bài cho 4 file trong đó có 1 file là memdmp của Win, mình sẽ mở hint của bài lên trước xem có gì không
 
-![image.png](Gyul%20Box-dreamhack-1/Binary%20Badresources-htb-med/image%201.png)
+![image.png](windowpool-dh/image%201.png)
 
 - Driver kernel (quyền admin) **alloc NonPagedPool 0x300 bytes** với tag `'looP'` (little-endian đọc ra thành **"Pool"**) để dễ nhận diện trong dump RAM/pool.vmem.
 - Nó **ghi magic 8 bytes** `0xDEADBEEFCAFEBABE` vào **đầu buffer** (trong RAM sẽ thấy byte: `BE BA FE CA EF BE AD DE`).
@@ -16,6 +16,6 @@
 
 **Hex để search:** `BE BA FE CA EF BE AD DE` vì nó ở little endian
 
-![image.png](Gyul%20Box-dreamhack-1/Binary%20Badresources-htb-med/image%202.png)
+![image.png](windowpool-dh/image%202.png)
 
 Flag: FLAG{po01_Al10cA7e_XD}
