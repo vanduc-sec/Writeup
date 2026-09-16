@@ -1,6 +1,6 @@
 # interstellar c2-htb-poshc2(beacon-c2 gửi module -yêu cầu thực thi trên máy nạn nhân)
 
-![image.png](interstellar%20c2-htb-poshc2(beacon-c2%20g%E1%BB%ADi%20module%20-y/image.png)
+![image.png](Diagnostic-hackthebox-easy/An%20unusual%20sighting-ctftryout-hackthebox/image.png)
 
 Bài này cho ta 1 file pcap mở lên thì mình thấy nó có gửi 1 tập lệnh powershell qua http khá đáng nghi mình tải về và mở lên thì tronong nó bị obsfucation nên mình có sửa lại 1 chút cho dễ nhìn
 
@@ -35,11 +35,11 @@ $Decd | Set-Content -Path "$env:temp\tmp7102591.exe" -Encoding Byte
 
 Đầy là nó tải 1 file về sau đó thì dùng aes giải mã ra  1 file exe giờ việc của chúng ta là vào wireshark tìm file 94974f08-5853-41ab-938a-ae1bd86d8e51 này và tải về sau đó là chúng ta sẽ giải mã nó
 
-![image.png](interstellar%20c2-htb-poshc2(beacon-c2%20g%E1%BB%ADi%20module%20-y/image%201.png)
+![image.png](Diagnostic-hackthebox-easy/An%20unusual%20sighting-ctftryout-hackthebox/image%201.png)
 
 sau khi decrypt thì mình thu được 1 file thực thi dùng c# nên mình sẽ mở nó bàng dnspy
 
-![image.png](interstellar%20c2-htb-poshc2(beacon-c2%20g%E1%BB%ADi%20module%20-y/image%202.png)
+![image.png](Diagnostic-hackthebox-easy/An%20unusual%20sighting-ctftryout-hackthebox/image%202.png)
 
 - kiểm tra kill date `2025-01-01`
 - thu thập info máy: domain, username, admin hay không, hostname, arch, pid, process name
@@ -422,8 +422,8 @@ sau đó mình sẽ láy madx này deocode post
 
 sau đó mình lên cyberchef decode base64 vì file 4 sau khi đc gunzip toàn là base64
 
-![download.png](interstellar%20c2-htb-poshc2(beacon-c2%20g%E1%BB%ADi%20module%20-y/download.png)
+![download.png](interstellar%20c2-htb-poshc2%28beacon-c2%20g%E1%BB%ADi%20module%20-y/download.png)
 
-![image.png](interstellar%20c2-htb-poshc2(beacon-c2%20g%E1%BB%ADi%20module%20-y/image%203.png)
+![image.png](Diagnostic-hackthebox-easy/An%20unusual%20sighting-ctftryout-hackthebox/image%203.png)
 
 HTB{h0w_c4N_y0U_s3e_p05H_c0mM4nd?}

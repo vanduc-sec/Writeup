@@ -1,6 +1,6 @@
 # Exatlon-rev-easy-htb
 
-![image.png](Exatlon-rev-easy-htb/image.png)
+![image.png](Diagnostic-hackthebox-easy/An%20unusual%20sighting-ctftryout-hackthebox/image.png)
 
 ở đây mình kiểm tra thấy nó đang được đóng gói bằng upx nên mình sẽ giải nén nó 
 
@@ -177,4 +177,4 @@ int main(){
 }
 ```
 
-![image.png](Exatlon-rev-easy-htb/image%201.png)
+![image.png](Diagnostic-hackthebox-easy/An%20unusual%20sighting-ctftryout-hackthebox/image%201.png)

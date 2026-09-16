@@ -1,12 +1,12 @@
 # Mask Off-hackthebox
 
-![image.png](Mask%20Off-hackthebox/image.png)
+![image.png](Diagnostic-hackthebox-easy/An%20unusual%20sighting-ctftryout-hackthebox/image.png)
 
 - Sau khi unzip ra thì chúng ta sẽ nhận được 1 file pcap bây giờ mình sẽ dùng networkminner để check nhé.
 
  
 
-![image.png](Mask%20Off-hackthebox/image%201.png)
+![image.png](Diagnostic-hackthebox-easy/An%20unusual%20sighting-ctftryout-hackthebox/image%201.png)
 
 - Thấy có 1 file elf và zip, khi mở file elf bằng ida thì phát hiện ra một chuỗi: S3cr3tP@ss có vẻ là mk gì đó sau đó mình còn phát hiện: Usage: %s [ -c [ connect_back_host ] ] [ -s secret ] [ -p port ]  có vẻ là c2 trafic nên mình sẽ dùng tool để xử lý đó:
 

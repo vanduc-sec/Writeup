@@ -1,10 +1,10 @@
 # hypercraft-htb-med-email obfuscation
 
-![image.png](hypercraft-htb-med-email%20obfuscation/image.png)
+![image.png](Diagnostic-hackthebox-easy/An%20unusual%20sighting-ctftryout-hackthebox/image.png)
 
 Bài này cho mình một email mở lên thì nó có kèm theo một file 
 
-![image.png](hypercraft-htb-med-email%20obfuscation/image%201.png)
+![image.png](Diagnostic-hackthebox-easy/An%20unusual%20sighting-ctftryout-hackthebox/image%201.png)
 
 Tải về và mở lên thì nó là 1 htm sau khi mở lên nó sẽ tự động tải 1 file zip về giải nén file zip ra chúng ta sẽ nhận được 1 fie html.js
 
@@ -25,19 +25,19 @@ Tải về và mở lên thì nó là 1 htm sau khi mở lên nó sẽ tự đ�
 
 Đầu tiên mọi người cat file js đó thì sẽ thấy rất nhiều chuỗi dài vuốt xuống cuối mọi người sẽ thấy nó sẽ thay sV thành rỗng và decode hex
 
-![image.png](hypercraft-htb-med-email%20obfuscation/image%202.png)
+![image.png](Diagnostic-hackthebox-easy/An%20unusual%20sighting-ctftryout-hackthebox/image%202.png)
 
 Sau khi decode chúng ta lại tiếp tục thu được 1 đoạn payload mã hóa đoạn nầy đơn giản là nó viết 1 hàm deocde bas64
 
-![image.png](hypercraft-htb-med-email%20obfuscation/image%203.png)
+![image.png](Diagnostic-hackthebox-easy/An%20unusual%20sighting-ctftryout-hackthebox/image%203.png)
 
 Mọi người bắt đàu lấy từ chuỗi atojqpvq và xem nó nối với chuoxi nào lấy hết ra là được
 
-![image.png](hypercraft-htb-med-email%20obfuscation/image%204.png)
+![image.png](zombienet-htb-med%28disk-openWrt%20router-maintain%20acc/image%204.png)
 
 Sau khi decode ra mọi  người sẽ tháy nó tiếp tục được mã hóa bằng deflate và base64
 
-![image.png](hypercraft-htb-med-email%20obfuscation/image%205.png)
+![image.png](zombienet-htb-med%28disk-openWrt%20router-maintain%20acc/image%205.png)
 
 tiêp tục 1 đoạn mã hóa
 
@@ -113,6 +113,6 @@ Register-ScheduledTask -TaskName $taskName -Action $action -Trigger $trigger -Se
 
 sau đó mọi người nhìn vào có dòng mảng flag chúng ta decode mảng đó và cso được flag
 
-![image.png](hypercraft-htb-med-email%20obfuscation/image%206.png)
+![image.png](zombienet-htb-med%28disk-openWrt%20router-maintain%20acc/image%206.png)
 
 HTB{l0ts_of_l4Y3rs_iN_th4t_1}

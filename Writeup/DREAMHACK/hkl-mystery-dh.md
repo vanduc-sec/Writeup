@@ -1,20 +1,20 @@
 # hkl-mystery-dh
 
-![image.png](hkl-mystery-dh/image.png)
+![image.png](Gyul%20Box-dreamhack-1/Binary%20Badresources-htb-med/image.png)
 
 Bài này cho cta 1 thư mục local file nên mình sẽ mở nó trong autopsy, theo như bài thì việc của chúng ta là tìm malware nên mình sẽ ưu tiên tìm các file .exe, mọi người dùng chức năng tìm kiếm file trên autopsy là được 
 
-![image.png](hkl-mystery-dh/image%201.png)
+![image.png](Gyul%20Box-dreamhack-1/Binary%20Badresources-htb-med/image%201.png)
 
 sau đó mình sẽ dump file này ra và thử mở nó bằng ida xem sao
 
-![image.png](hkl-mystery-dh/image%202.png)
+![image.png](Gyul%20Box-dreamhack-1/Binary%20Badresources-htb-med/image%202.png)
 
 - Hàm main so sánh hash của b4ckd00r.exe với 1 mã hash đã được encrypt và obfuscation trong code
 - Có 1 chuỗi base64 được chia làm 3 phần và sub_140001300 dùng để giải mã chúng
 - 
 
-![image.png](hkl-mystery-dh/image%203.png)
+![image.png](Gyul%20Box-dreamhack-1/Binary%20Badresources-htb-med/image%203.png)
 
 Tiếp tục là 
 

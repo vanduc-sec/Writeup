@@ -1,10 +1,10 @@
 # deadly arthropod-htb-med
 
-![image.png](deadly%20arthropod-htb-med/image.png)
+![image.png](Diagnostic-hackthebox-easy/An%20unusual%20sighting-ctftryout-hackthebox/image.png)
 
 Bài này cung cấp cho chúng ta 1 file pcap
 
-![image.png](deadly%20arthropod-htb-med/image%201.png)
+![image.png](Diagnostic-hackthebox-easy/An%20unusual%20sighting-ctftryout-hackthebox/image%201.png)
 
 Trong Wireshark đang có:
 

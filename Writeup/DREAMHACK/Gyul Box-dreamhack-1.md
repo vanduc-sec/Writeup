@@ -8,14 +8,14 @@ Above all... I don't think this is a single box! I think there's another box ins
 - Sau khi tải file về chúng ta unzip thì sẽ nhận được 2 file ảnh.
 - Khi chúng ta dùng hxd mở file thì ở cuối chúng ta sẽ thấy có final key: 7e1cbabc03360aa6a25d7c85ece471beb2d9517c23f38a1ccec4d0206c0e00f8
 
-![image.png](Gyul%20Box-dreamhack-1/image.png)
+![image.png](Gyul%20Box-dreamhack-1/Binary%20Badresources-htb-med/image.png)
 
 - Cái khóa này mình nghĩ chắc sẽ dùng vào việc gì đó chúng  ta sẽ lưu lại dùng sau
 - Tiếp theo mình phân tích tiếp đề bài và dòng chữ có trên ảnh thì mình nghĩ file này có thể được ẩn file nào đó bên trong nên mình sẽ dùng:  binwalk -e big_box.jpg, binwalk -e filethu2
 - Mọi người sẽ thấy file 4D8AE
 - Dùng lệnh:  file 4D8AE thì biết nó file tar, chúng ta sẽ extract nó ra bằng lệnh: tar -xf 4D8AE
 
-![image.png](Gyul%20Box-dreamhack-1/image%201.png)
+![image.png](Gyul%20Box-dreamhack-1/Binary%20Badresources-htb-med/image%201.png)
 
 - Mở ảnh và đọc file txt chúng ta sẽ thấy đây là một dạng mã hóa cộng x với 1 số và chia dư cho 256 và x là 1 byte nên x sẽ chạy từ 0-255 chúng ta sẽ dùng brute force cho x :
 
@@ -70,7 +70,7 @@ decrypt_file()
 - Vì key này 32 byte nên mk đoán thử nó sẽ là key của mã hóa aes vì key aes hay là 16 hoặc 32 byte
 - Mình lên cyberchef decode
 
-![image.png](Gyul%20Box-dreamhack-1/image%202.png)
+![image.png](Gyul%20Box-dreamhack-1/Binary%20Badresources-htb-med/image%202.png)
 
 - và nhận được file png mới mở ra và nhận được flag
     

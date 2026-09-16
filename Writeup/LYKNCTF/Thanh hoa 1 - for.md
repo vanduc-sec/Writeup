@@ -2,7 +2,7 @@
 
 Bài cung cấp cho chúng ta 1 file âm thanh xem spectrogram phát hiện có đoạn chữ lạ 
 
-![image.png](Thanh%20hoa%201%20-%20for/image.png)
+![image.png](world%20cup%202%20-%20for/image.png)
 
 “RAUMAPHATAU”
 

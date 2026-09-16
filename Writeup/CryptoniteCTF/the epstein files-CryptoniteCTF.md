@@ -1,12 +1,12 @@
 # the epstein files-CryptoniteCTF
 
-![image.png](the%20epstein%20files-CryptoniteCTF/image.png)
+![image.png](Spongebob%20Squarepants-CryptoniteCTF/image.png)
 
 Bài này cung cấp cho chúng ta 1 file pdf mở nó lên thì mình thấy có nhiều phần bị bôi đen mình sẽ copy toàn bộ và dán sang notepad
 
-![image.png](the%20epstein%20files-CryptoniteCTF/image%201.png)
+![image.png](Spongebob%20Squarepants-CryptoniteCTF/image%201.png)
 
-![image.png](the%20epstein%20files-CryptoniteCTF/image%202.png)
+![image.png](Spongebob%20Squarepants-CryptoniteCTF/image%202.png)
 
 Sau khi dán qua notepad mọi người sẽ thấy gần như những chỗ bị bôi đen đều có nội dung những hộp màu đen kia chỉ là người ta đề lên mà thôi thực ra bên dưới nó vẫn có nội dung
 
@@ -14,11 +14,11 @@ Sau khi dán qua notepad mọi người sẽ thấy gần như những chỗ b�
 
 Tiếp theo là mình sẽ mở nó trong hxd để xem ở dạng rawbyte thì mình tiếp tục phát hiện được key iv của mã aes: a1b2c3d4e5f60718293a4b5c6d7e8f90
 
-![image.png](the%20epstein%20files-CryptoniteCTF/image%203.png)
+![image.png](Spongebob%20Squarepants-CryptoniteCTF/image%203.png)
 
 Tìm một hồi ở bề mặt nổi có vẻ như không còn gì nữa tiếp theo đó là mình sẽ đi sâu hơn vào cấu trúc pdf 
 
-![image.png](the%20epstein%20files-CryptoniteCTF/image%204.png)
+![image.png](Spongebob%20Squarepants-CryptoniteCTF/image%204.png)
 
 Khi mà mình dùng qpdf để kiểm tra thì thấy xref của nó đã có vấn đề mình sẽ chuyển nó sang json và khai thác tiếp
 

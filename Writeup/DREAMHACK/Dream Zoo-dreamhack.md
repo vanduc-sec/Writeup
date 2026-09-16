@@ -1,12 +1,12 @@
 # Dream Zoo-dreamhack
 
-![image.png](Dream%20Zoo-dreamhack/image.png)
+![image.png](Gyul%20Box-dreamhack-1/Binary%20Badresources-htb-med/image.png)
 
-![image.png](Dream%20Zoo-dreamhack/image%201.png)
+![image.png](Gyul%20Box-dreamhack-1/Binary%20Badresources-htb-med/image%201.png)
 
 Sau khi mở file thì mk thấy có vẻ như có liên quan j đến openstego gì đó
 
-![image.png](Dream%20Zoo-dreamhack/image%202.png)
+![image.png](Gyul%20Box-dreamhack-1/Binary%20Badresources-htb-med/image%202.png)
 
 Này trông có vẻ giống mã dec nên mình sẽ cắt thử xem thế nào
 
@@ -22,28 +22,28 @@ tshark -r zoo.pcap -Y "dns.flags.response==0 && dns.qry.type==TXT" \
 } END{print ""}' > dns_hex.txt
 ```
 
-![image.png](Dream%20Zoo-dreamhack/image%203.png)
+![image.png](Gyul%20Box-dreamhack-1/Binary%20Badresources-htb-med/image%203.png)
 
 Sau khi có file thì mình phát hiện ra nó là zip nên mình sẽ giải nén nó ra xem sao
 
-![image.png](Dream%20Zoo-dreamhack/image%204.png)
+![image.png](Gyul%20Box-dreamhack-1/Binary%20Badresources-htb-med/image%204.png)
 
-![image.png](Dream%20Zoo-dreamhack/image%205.png)
+![image.png](Gyul%20Box-dreamhack-1/Binary%20Badresources-htb-med/image%205.png)
 
 Sau khi đọc hint thì mình sẽ bắt đầu khiai thác các ảnh hình trái tim 
 
-![image.png](Dream%20Zoo-dreamhack/image%206.png)
+![image.png](Gyul%20Box-dreamhack-1/Binary%20Badresources-htb-med/image%206.png)
 
-![image.png](Dream%20Zoo-dreamhack/image%207.png)
+![image.png](please%20recover%20my%20file%20-dh/image%207.png)
 
-![image.png](Dream%20Zoo-dreamhack/image%208.png)
+![image.png](please%20recover%20my%20file%20-dh/image%208.png)
 
-![image.png](Dream%20Zoo-dreamhack/image%209.png)
+![image.png](please%20recover%20my%20file%20-dh/image%209.png)
 
-![image.png](Dream%20Zoo-dreamhack/image%2010.png)
+![image.png](please%20recover%20my%20file%20-dh/image%2010.png)
 
 Sau khi etract tất cả dữ liệu thì hcungs ta sẽ biết được có vẻ flag đã bị xor với số động vật trong file zip nên mk sẽ decode
 
-![image.png](Dream%20Zoo-dreamhack/image%2011.png)
+![image.png](please%20recover%20my%20file%20-dh/image%2011.png)
 
 DH{4bn0rm4l_dns_p4ck3t_l34ks_d4t4}

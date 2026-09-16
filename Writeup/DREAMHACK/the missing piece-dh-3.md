@@ -1,6 +1,6 @@
 # the missing piece-dh-3
 
-![image.png](the%20missing%20piece-dh-3/image.png)
+![image.png](Gyul%20Box-dreamhack-1/Binary%20Badresources-htb-med/image.png)
 
 Bạn đang có:`disk_1.bin` (Disk1),`disk_3.bin` (Disk3), **mất Disk2**
 
@@ -147,10 +147,10 @@ if __name__ == "__main__":
 
 ```
 
-![image.png](the%20missing%20piece-dh-3/image%201.png)
+![image.png](Gyul%20Box-dreamhack-1/Binary%20Badresources-htb-med/image%201.png)
 
 sau khi chạy ngọi người sẽ nhận được 1 ảnh là png mở nó lên là sẽ có được flag
 
-![image.png](the%20missing%20piece-dh-3/image%202.png)
+![image.png](Gyul%20Box-dreamhack-1/Binary%20Badresources-htb-med/image%202.png)
 
 DH{R4ID_5_R3c0v3ry_1s_Fun}

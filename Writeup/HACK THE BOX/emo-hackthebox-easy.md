@@ -2,7 +2,7 @@
 
 X8twf_cydt6()
 
-![image.png](emo-hackthebox-easy/image.png)
+![image.png](Diagnostic-hackthebox-easy/An%20unusual%20sighting-ctftryout-hackthebox/image.png)
 
 - Chúng ta tải file về và giả nén kiểm tra file doc.
 
@@ -559,7 +559,7 @@ End Function
 
  
 
-![image.png](emo-hackthebox-easy/image%201.png)
+![image.png](Diagnostic-hackthebox-easy/An%20unusual%20sighting-ctftryout-hackthebox/image%201.png)
 
 - Đây có lẽ là đoạn có vấn đề mà code sẽ giải quyết , tiếp theo là function X8twf_cydt6(), hàm này sẽ là đọc text và xóa 4 ký từ đầu sau đó là xóa ][(s)]w và gọi hàm Function AWLDFu7C7y(*AMUjF5h4uz*)
 
@@ -655,8 +655,8 @@ if __name__ == "__main__":
 
 - Mọi người cũng có thể lên cyberchef để decode
 
-![image.png](emo-hackthebox-easy/image%202.png)
+![image.png](Diagnostic-hackthebox-easy/An%20unusual%20sighting-ctftryout-hackthebox/image%202.png)
 
-![image.png](emo-hackthebox-easy/image%203.png)
+![image.png](Diagnostic-hackthebox-easy/An%20unusual%20sighting-ctftryout-hackthebox/image%203.png)
 
 flag:HTB{4n0th3R_d4Y_AnoThEr_pH1Sh}

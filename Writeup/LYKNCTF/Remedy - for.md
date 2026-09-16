@@ -2,7 +2,7 @@
 
 Bài này cung cấp cho mình file ảnh mình vứt lên tool online phân tích có đoạn mã hex khá đáng nghi
 
-![image.png](Remedy%20-%20for/image.png)
+![image.png](world%20cup%202%20-%20for/image.png)
 
 sau đó mình sẽ thử decode 
 

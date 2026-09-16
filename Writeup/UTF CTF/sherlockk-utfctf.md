@@ -1,6 +1,6 @@
 # sherlockk-utfctf
 
-![image.png](sherlockk-utfctf/image.png)
+![image.png](Last%20Byte%20Standing-utfctf/image.png)
 
 Bài này tiếp tục là 1 dạng IR với giống 2 bài trước mk sẽ phần tích đề bài 1 chút
 
@@ -164,7 +164,7 @@ Tức là đề kiểm tra bạn ở 3 kỹ năng:
 
 Để làm bài này đầu tiên mình sẽ khái thác về dấu vế url trước đối với cái này thì mk sẽ ưu tiên tìm trong chorme history, brower history, …
 
-![image.png](sherlockk-utfctf/image%201.png)
+![image.png](Last%20Byte%20Standing-utfctf/image%201.png)
 
 Ở đây mọi người sẽ thấy có phần download đang tải 1 file nhy8LSzl.txt từ trang web pasters.ip trông rất là khả nghi nên là mình sẽ lấy luôn nó làm mật khẩu cho file zip A 
 
@@ -186,7 +186,7 @@ p1: b45k3rv1ll3
 
 Tiếp đến là tìm md5 của file scrip, ở đây cũng trong user adminstrator các bạn vào phần downloads và thấy ngáy có file [script.sh.sh](http://script.sh.sh) là chính là đoạn scrip lạ
 
-![image.png](sherlockk-utfctf/image%202.png)
+![image.png](Last%20Byte%20Standing-utfctf/image%202.png)
 
 lấy md5 của nó
 
@@ -221,7 +221,7 @@ Ghi chú mà chúng ta đang tìm kiếm có lẽ là một tập tin văn bản
 
 Để phân tích tập `$MFT`tin, chúng ta sẽ sử dụng MFTExplorer từ bộ công cụ của Eric Zimmerman
 
-![image.png](sherlockk-utfctf/image%203.png)
+![image.png](Last%20Byte%20Standing-utfctf/image%203.png)
 
 Ở đay mọi người sẽ có thể nhìn thấy trong file adminstrator note có grocery list với :Lettuce-Cabbage-Carrots
 

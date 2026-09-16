@@ -1,6 +1,6 @@
 # zombienet-htb-med(disk-openWrt router-maintain access-/etc/init.d/
 
-![image.png](zombienet-htb-med(disk-openWrt%20router-maintain%20acc/image.png)
+![image.png](Diagnostic-hackthebox-easy/An%20unusual%20sighting-ctftryout-hackthebox/image.png)
 
 Bài này cung cấp cho chúng ta 1 file .bin là  firmware router OpenWrt cái này cũng coi như là 1 bài disk imgae như thường lện mình sẽ mở lên bằng autopsy 
 
@@ -8,7 +8,7 @@ Bài này cung cấp cho chúng ta 1 file .bin là  firmware router OpenWrt cái
 
 /etc/init.d/
 
-![image.png](zombienet-htb-med(disk-openWrt%20router-maintain%20acc/image%201.png)
+![image.png](Diagnostic-hackthebox-easy/An%20unusual%20sighting-ctftryout-hackthebox/image%201.png)
 
 Khi mà vào các bạn sẽ thấy một tiến trình lạ nó khỏi động khá muộn so với hệ thống 
 
@@ -21,7 +21,7 @@ Khi mà vào các bạn sẽ thấy một tiến trình lạ nó khỏi động 
 
 Tiếp mình sẽ men theo đường dẫn để xem cái gì được khỏi đông 
 
-![image.png](zombienet-htb-med(disk-openWrt%20router-maintain%20acc/image%202.png)
+![image.png](Diagnostic-hackthebox-easy/An%20unusual%20sighting-ctftryout-hackthebox/image%202.png)
 
 - chạy vô hạn `while [ 1 ]`
 - mỗi vòng sẽ gọi:
@@ -33,7 +33,7 @@ Tiếp mình sẽ men theo đường dẫn để xem cái gì được khỏi đ
 
 TIếp lại xem file dead-reanimation
 
-![image.png](zombienet-htb-med(disk-openWrt%20router-maintain%20acc/image%203.png)
+![image.png](Diagnostic-hackthebox-easy/An%20unusual%20sighting-ctftryout-hackthebox/image%203.png)
 
 Ở đây mọi người sẽ thấy nó là 1 fiel elf thưc thi nên là mình sẽ export nó ra và mở bằng ida xem nó làm gì
 
@@ -113,7 +113,7 @@ BOOL __fastcall sub_400C04(int a1)
 
 Tiếp là hàm 400c04 nó 1 hàm xor lấy key là dword-400f24
 
-![image.png](zombienet-htb-med(disk-openWrt%20router-maintain%20acc/image%204.png)
+![image.png](zombienet-htb-med%28disk-openWrt%20router-maintain%20acc/image%204.png)
 
 Ở đây mọi người sẽ thấy được toàn bộ thong tin về v8 v9 và key thong qua dword mội người nhớ là nó dạng little endian nên sẽ cần đảo byte nhé
 
@@ -125,13 +125,13 @@ v9:b765769a6bafbeaf6241874253fc8291cf5ee43b718ccc468fc171f3e2399dddbe6567c422e8c
 
 lần lượt decode các v4 v6 v8 c9
 
-![image.png](zombienet-htb-med(disk-openWrt%20router-maintain%20acc/image%205.png)
+![image.png](zombienet-htb-med%28disk-openWrt%20router-maintain%20acc/image%205.png)
 
-![image.png](zombienet-htb-med(disk-openWrt%20router-maintain%20acc/image%206.png)
+![image.png](zombienet-htb-med%28disk-openWrt%20router-maintain%20acc/image%206.png)
 
-![image.png](zombienet-htb-med(disk-openWrt%20router-maintain%20acc/image%207.png)
+![image.png](zombienet-htb-med%28disk-openWrt%20router-maintain%20acc/image%207.png)
 
-![image.png](zombienet-htb-med(disk-openWrt%20router-maintain%20acc/image%208.png)
+![image.png](zombienet-htb-med%28disk-openWrt%20router-maintain%20acc/image%208.png)
 
 v4:
 
@@ -192,26 +192,26 @@ Tiếp khi mà mình curl đến v8 thì nó báo là phải ghi đè ra file n�
 
 Đến đây tiếp tục lại là 1 file elf thực thi tiếp mình lại mở bằng ida
 
-![image.png](zombienet-htb-med(disk-openWrt%20router-maintain%20acc/image%209.png)
+![image.png](zombienet-htb-med%28disk-openWrt%20router-maintain%20acc/image%209.png)
 
 Ở đây mọi người nhìn phần biến dest là một mã hex sau đó dược gọi bằng hàm init_crypto_lib với biến s là 1b byte láy từ unk_4005d0
 
-![image.png](zombienet-htb-med(disk-openWrt%20router-maintain%20acc/image%2010.png)
+![image.png](zombienet-htb-med%28disk-openWrt%20router-maintain%20acc/image%2010.png)
 
 vào hàm nầy mình thấy nó gội đến 2 hàm khác mình mở tiếp 2 hàm này
 
-![image.png](zombienet-htb-med(disk-openWrt%20router-maintain%20acc/image%2011.png)
+![image.png](zombienet-htb-med%28disk-openWrt%20router-maintain%20acc/image%2011.png)
 
-![image.png](zombienet-htb-med(disk-openWrt%20router-maintain%20acc/image%2012.png)
+![image.png](zombienet-htb-med%28disk-openWrt%20router-maintain%20acc/image%2012.png)
 
 Ở đay mọi người sẽ biết nó là mã hóa rc4 giờ mình 27 byte ở und_40050
 
-![image.png](zombienet-htb-med(disk-openWrt%20router-maintain%20acc/image%2013.png)
+![image.png](zombienet-htb-med%28disk-openWrt%20router-maintain%20acc/image%2013.png)
 
 s:C5 7C 2B 05 48 90 F3 B7 3F 76 0F 5B 68 7B 62 72 DD F8 01 9B 57 47 1E 6F DF 8C 55
 
 decode
 
-![image.png](zombienet-htb-med(disk-openWrt%20router-maintain%20acc/image%2014.png)
+![image.png](zombienet-htb-med%28disk-openWrt%20router-maintain%20acc/image%2014.png)
 
 HTB{Z0mb13s_h4v3_inf3ct3d_0ur_c0mmun1c4t10ns!!}

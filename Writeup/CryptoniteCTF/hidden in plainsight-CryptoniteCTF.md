@@ -1,6 +1,6 @@
 # hidden in plainsight-CryptoniteCTF
 
-![image.png](hidden%20in%20plainsight-CryptoniteCTF/image.png)
+![image.png](Spongebob%20Squarepants-CryptoniteCTF/image.png)
 
 Bài này cung cấp cho mình một file ảnh jpeg và 1 file .txt đọc theo miêu tả của bài
 
@@ -37,7 +37,7 @@ tiếp qua đó mình sẽ tác tab space ra và decode nó
 python3 -c "from pathlib import Path; [print([len(x) for x in line.split('\t')]) for line in Path('Tachyon2.txt').read_text().splitlines()]"
 ```
 
-![image.png](hidden%20in%20plainsight-CryptoniteCTF/image%201.png)
+![image.png](Spongebob%20Squarepants-CryptoniteCTF/image%201.png)
 
 Mọi người sẽ nhìn vào bắt đàu từ số 6 dòng 1 số 9 đó cứ phần deal all ko phải phần dữ liệu ẩn nên mình sẽ đi từ 6 4 1 3 7 5 3 5 6 6 1 3 2 4 5 4 6 5 0
 
@@ -62,14 +62,14 @@ Với việc nhận được 1 đoạn tn ngắn như này thi mình nghĩ nó s
 steghide extract -sf Tachyon2.jpeg -p foundit
 ```
 
-![image.png](hidden%20in%20plainsight-CryptoniteCTF/image%202.png)
+![image.png](Spongebob%20Squarepants-CryptoniteCTF/image%202.png)
 
 Sau khi extract mọi người sẽ nhận được vô số file flag giả và trong đó có file flag cuối cùng nó trông là mã hóa rot cipher 
 
-![image.png](hidden%20in%20plainsight-CryptoniteCTF/image%203.png)
+![image.png](Spongebob%20Squarepants-CryptoniteCTF/image%203.png)
 
 Mình sẽ mang nó lên cyberchef decode
 
-![image.png](hidden%20in%20plainsight-CryptoniteCTF/image%204.png)
+![image.png](Spongebob%20Squarepants-CryptoniteCTF/image%204.png)
 
 TACHYON{h1dd3n_1n_pl41ns1ght}

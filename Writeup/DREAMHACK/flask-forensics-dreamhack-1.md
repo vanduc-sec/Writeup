@@ -791,6 +791,6 @@ INFO:app:2024-04-28T02:20:53 | 172.17.0.1 | GET [http://localhost:5000/path-trav
 
 date -ud "2024-04-28 02:20:53" +%s
 
-![image.png](flask-forensics-dreamhack-1/image.png)
+![image.png](Gyul%20Box-dreamhack-1/Binary%20Badresources-htb-med/image.png)
 
 - Vậy flag sẽ là: DH{1714270853}

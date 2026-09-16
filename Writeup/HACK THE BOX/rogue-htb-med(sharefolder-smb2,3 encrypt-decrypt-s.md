@@ -1,10 +1,10 @@
 # rogue-htb-med(sharefolder-smb2,3 encrypt-decrypt-session id+session key)
 
-![image.png](rogue-htb-med(sharefolder-smb2,3%20encrypt-decrypt-s/image.png)
+![image.png](Diagnostic-hackthebox-easy/An%20unusual%20sighting-ctftryout-hackthebox/image.png)
 
 Bài này cho chúng ta 1 file pcap sau khi vào mình có thấy cuộc trò truyền qua giao thức ftb và có tải 1 file zip
 
-![image.png](rogue-htb-med(sharefolder-smb2,3%20encrypt-decrypt-s/image%201.png)
+![image.png](Diagnostic-hackthebox-easy/An%20unusual%20sighting-ctftryout-hackthebox/image%201.png)
 
 giờ mình sẽ export ra và xem nó đây là 1 file LSASS minidump nên mình dùng 
 
@@ -71,11 +71,11 @@ Cũng trong packet `NTLMSSP_AUTH`, dòng `Session Key`
 
 Session Id: 0x0000a00000000015 → 1500000000a00000
 
-![image.png](rogue-htb-med(sharefolder-smb2,3%20encrypt-decrypt-s/image%202.png)
+![image.png](Diagnostic-hackthebox-easy/An%20unusual%20sighting-ctftryout-hackthebox/image%202.png)
 
-![image.png](rogue-htb-med(sharefolder-smb2,3%20encrypt-decrypt-s/image%203.png)
+![image.png](Diagnostic-hackthebox-easy/An%20unusual%20sighting-ctftryout-hackthebox/image%203.png)
 
-![image.png](rogue-htb-med(sharefolder-smb2,3%20encrypt-decrypt-s/image%204.png)
+![image.png](zombienet-htb-med%28disk-openWrt%20router-maintain%20acc/image%204.png)
 
 ```python
 import hmac
@@ -122,13 +122,13 @@ Session Key: 9ae0af5c19ba0de2ddbe70881d4263ac
 
 ```
 
-![image.png](rogue-htb-med(sharefolder-smb2,3%20encrypt-decrypt-s/image%205.png)
+![image.png](zombienet-htb-med%28disk-openWrt%20router-maintain%20acc/image%205.png)
 
 sau khi decrypt sẽ thấy có file pdf thông tin khác hàngmọi nu export ra đọc và có được flag
 
-![image.png](rogue-htb-med(sharefolder-smb2,3%20encrypt-decrypt-s/image%206.png)
+![image.png](zombienet-htb-med%28disk-openWrt%20router-maintain%20acc/image%206.png)
 
-![image.png](rogue-htb-med(sharefolder-smb2,3%20encrypt-decrypt-s/image%207.png)
+![image.png](zombienet-htb-med%28disk-openWrt%20router-maintain%20acc/image%207.png)
 
 mọi người export ra và có được flag
 

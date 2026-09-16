@@ -1,6 +1,6 @@
 # strike back-htb-med
 
-![image.png](strike%20back-htb-med/image.png)
+![image.png](Diagnostic-hackthebox-easy/An%20unusual%20sighting-ctftryout-hackthebox/image.png)
 
 Bài này thì cho chúng ta 1 file pcap và 1 file .dmp
 
@@ -226,11 +226,11 @@ C:\Windows\System32\wow64.dll
 
 Tiếp đến vào pcap 
 
-![image.png](strike%20back-htb-med/image%201.png)
+![image.png](Diagnostic-hackthebox-easy/An%20unusual%20sighting-ctftryout-hackthebox/image%201.png)
 
 Ơ đây mình thấy có file .exe mình sẽ export nó ra và vứt lên virustotal
 
-![image.png](strike%20back-htb-med/image%202.png)
+![image.png](Diagnostic-hackthebox-easy/An%20unusual%20sighting-ctftryout-hackthebox/image%202.png)
 
 Ở đây mọi người thấy nó là mã độc và bên dưới chúng ta cũng thấy nó có vẻ là mã hóa cobal strike ròi
 
@@ -240,7 +240,7 @@ Tiếp để giải thì mọi tìm trên github sẽ có một số bài dẫn 
 
 Để giải bài này đầu tiên mọi ng sẽ cần tìm key để tìm key thì mọi người sẽ cần phải có hex body của tin nhắn mã hóa
 
-![image.png](strike%20back-htb-med/image%203.png)
+![image.png](Diagnostic-hackthebox-easy/An%20unusual%20sighting-ctftryout-hackthebox/image%203.png)
 
 Trong wireshark mọi người có thể thấy ở protocol http còn post 1 số submit.php khá là giống phần tin nhắn mã hóa nên mình sẽ lấy nó input cho hex body để chạy codee cs-extract-key.py
 
@@ -380,6 +380,6 @@ payload-b25952a4fd6a97bac3ccc8f2c01b906b.vir: ASCII text, with no line terminato
 
 sau khi mở pdf lên thì mình đã có được flag
 
-![image.png](strike%20back-htb-med/image%204.png)
+![image.png](zombienet-htb-med%28disk-openWrt%20router-maintain%20acc/image%204.png)
 
 HTB{Th4nk_g0d_y0u_f0und_1t_0n_T1m3!!!!}

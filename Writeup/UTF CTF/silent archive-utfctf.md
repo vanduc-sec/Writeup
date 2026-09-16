@@ -1,6 +1,6 @@
 # silent archive-utfctf
 
-![image.png](silent%20archive-utfctf/image.png)
+![image.png](Last%20Byte%20Standing-utfctf/image.png)
 
 Chúng ta phân tích đề bài một chút
 
@@ -38,7 +38,7 @@ sau khi giải nén mình nhận được 2 file tar và 1 file txt mình sẽ g
 
 Với file txt nó cũng chỉ là thông báo về tình huống mà chúng ta cần xử lí thôi
 
-![image.png](silent%20archive-utfctf/image%201.png)
+![image.png](Last%20Byte%20Standing-utfctf/image%201.png)
 
 Sau khi giải nén mình nhận được 2 file ảnh
 
@@ -200,14 +200,14 @@ Có vẻ như khong có gì lắm nó giống như là ghi chú về việc hai 
 
 Đọc thì nó ra 1 khoảng trắng rất giống ngôn ngữ whitespace hoặc là bị mã hóa bit bằng tap/space
 
-![image.png](silent%20archive-utfctf/image%202.png)
+![image.png](Last%20Byte%20Standing-utfctf/image%202.png)
 
 mọi ngươi sẽ find space và thayt thế bằng 0 sau đó là tìm tab và thay bằng 1
 
-![image.png](silent%20archive-utfctf/image%203.png)
+![image.png](Last%20Byte%20Standing-utfctf/image%203.png)
 
 Tiếp là sẽ thửu decode binary
 
-![image.png](silent%20archive-utfctf/image%204.png)
+![image.png](Last%20Byte%20Standing-utfctf/image%204.png)
 
 Flag: utflag{d1ff_th3_tw1ns_unt4r_th3_st0rm_r34d_th3_wh1t3sp4c3}

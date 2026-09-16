@@ -1,14 +1,14 @@
 # my nervous ppt-dreamhack
 
-![image.png](my%20nervous%20ppt-dreamhack/image.png)
+![image.png](Gyul%20Box-dreamhack-1/Binary%20Badresources-htb-med/image.png)
 
 - Bài này cung cấp cho chúng ta 1 file pcap mở nó nên các bạn sẽ thấy nó là giao thức usb
 
  
 
-![image.png](my%20nervous%20ppt-dreamhack/image%201.png)
+![image.png](Gyul%20Box-dreamhack-1/Binary%20Badresources-htb-med/image%201.png)
 
-![image.png](my%20nervous%20ppt-dreamhack/image%202.png)
+![image.png](Gyul%20Box-dreamhack-1/Binary%20Badresources-htb-med/image%202.png)
 
 ### 1. Giai đoạn thiết lập hệ thống (Enumeration)
 
@@ -25,7 +25,7 @@
     - **URB_SUBMIT:** Host gửi yêu cầu đọc dữ liệu (gõ cửa hỏi).
     - **URB_COMPLETE:** Thiết bị trả lời, có kèm theo dữ liệu thực tế (như phím bấm hoặc di chuyển chuột) hoặc xác nhận trạng thái.
 
-![image.png](my%20nervous%20ppt-dreamhack/image%203.png)
+![image.png](Gyul%20Box-dreamhack-1/Binary%20Badresources-htb-med/image%203.png)
 
  HID là Keyboard/Presenter phổ biến, Input Report luôn 8 byte. Cấu trúc 8-byte dữ liệu HID (Keyboard)
 
@@ -41,7 +41,7 @@ Dựa trên dữ liệu thực tế, tất cả các lần nhấn đều đi kè
 - **Trường hợp 2 (`0x51`):** Phím **Down Arrow** (Mũi tên xuống).
 - **Trường hợp 3 (`0x00`):** Chỉ giữ Shift, không nhấn thêm phím nào khác, ý tưởng của tôi là chuyển đổi chuỗi hành động nhấn phím (dài/ngắn hoặc lên/xuống) thành các ký tự Morse để giải mã ra nội dung cuối cùng.
 
-![image.png](my%20nervous%20ppt-dreamhack/image%204.png)
+![image.png](Gyul%20Box-dreamhack-1/Binary%20Badresources-htb-med/image%204.png)
 
 - Sau khi dùng tshark tách ra thì mình sẽ thấy gói tin chứa mã 52 là - và gói tin chứa mã 51 là . và gói tin chứa mã 0 là dấu cách
 - Đến đây chúng ta sẽ dùng code python để docode nó nhé chứ tshark kia chỉ là để xem chúng ta có đúng howngs ko thôi
@@ -191,7 +191,7 @@ if __name__ == "__main__":
 
  
 
-![image.png](my%20nervous%20ppt-dreamhack/image%205.png)
+![image.png](Gyul%20Box-dreamhack-1/Binary%20Badresources-htb-med/image%205.png)
 
 - Sau khi deocde thì mọi người sẽ thất flag nó hơi khê
 

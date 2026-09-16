@@ -5,25 +5,25 @@
 
 Sau khi tải file về chúng ta sẽ nhận được 1 file zip, tiến hành giải nén ta sẽ nhận được 1 file txt
 
-![image.png](MZGZ-DREAMHACK-1/image.png)
+![image.png](Gyul%20Box-dreamhack-1/Binary%20Badresources-htb-med/image.png)
 
 - Chúng ta mở file txt thì thấy 1 đoạn mã base 64 chúng ta sẽ deccode nó và lưu vào 1 file khác:
 
 base64 -d can_you_solve.txt > file
 
-![image.png](MZGZ-DREAMHACK-1/image%201.png)
+![image.png](Gyul%20Box-dreamhack-1/Binary%20Badresources-htb-med/image%201.png)
 
 - Mở file lên chúng  ta sẽ thấy nó là đoạn mã hex:
 
 cat file
 
-![image.png](MZGZ-DREAMHACK-1/image%202.png)
+![image.png](Gyul%20Box-dreamhack-1/Binary%20Badresources-htb-med/image%202.png)
 
 - Nhìn xuống cuối file mọi người sẽ nhìn thấy b8f1 đây là header file gz nhưng mà bị đảo ngược nên mình đoán chúng ta sẽ phải đảo ngược nội dung file này và biến nội dung này thành 1 file  mình sẽ dùng lệnh:
 
 rev file | xxd -r -p > file1
 
-![image.png](MZGZ-DREAMHACK-1/image%203.png)
+![image.png](Gyul%20Box-dreamhack-1/Binary%20Badresources-htb-med/image%203.png)
 
 - Sau khi đảo ngược và kiểm tra file vừa tao thì ta biết được là 1 file gzip và ban đầu tiêu đề nó là file jpg
 - Bây giờ chúng ta sẽ tổi tên file về dạng .gz để giải nén
@@ -39,4 +39,4 @@ file1
 
 - Kiểm tra file sau khi giải nén biết được nó file jpg chúng ta tiếp tục chuyển file về dạng jpg và mở nó lên :
 
-![image.png](MZGZ-DREAMHACK-1/image%204.png)
+![image.png](Gyul%20Box-dreamhack-1/Binary%20Badresources-htb-med/image%204.png)
