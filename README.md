@@ -8,7 +8,7 @@
 
 [PICO CTF](Writeup/PICO%20CTF.md)
 
-[**CRYPTONITECTF**](Writeup/CRYPTONITECTF.md)
+[CRYPTONITECTF](Writeup/CryptoniteCTF.md)
 
 [LYKNCTF](Writeup/LYKNCTF.md)
 
