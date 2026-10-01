@@ -1,4 +1,4 @@
-# CryptoniteCTF
+# CRYPTONITECTF
 
 [the epstein files-**CryptoniteCTF**](CryptoniteCTF/the%20epstein%20files-CryptoniteCTF.md)
 
