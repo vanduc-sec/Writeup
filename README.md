@@ -4,13 +4,11 @@
 
 [DREAMHACK](Writeup/DREAMHACK.md)
 
-[windowpool2-dh-3](Writeup/windowpool2-dh-3.md)
-
 [CYBERDEFENDERS](Writeup/CYBERDEFENDERS.md)
 
 [PICO CTF](Writeup/PICO%20CTF.md)
 
-[**CryptoniteCTF**](Writeup/CryptoniteCTF.md)
+[CRYPTONITECTF](Writeup/CryptoniteCTF.md)
 
 [LYKNCTF](Writeup/LYKNCTF.md)
 
