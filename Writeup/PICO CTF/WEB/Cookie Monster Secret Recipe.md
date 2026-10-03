@@ -1,10 +1,5 @@
 # Cookie Monster Secret Recipe
 
-Bản chất & Ví dụ: - Cookie: Dữ liệu nhỏ browser gửi kèm request cùng domain.- Application tab: Nơi xem/sửa cookie, localStorage, sessionStorage.- Encoded cookie: Cookie có thể chỉ bị encode, không phải encrypted.
-Hệ sinh thái kiến thức: - Browser cookie- Encoded cookie- DevTools Application- Base64/URL decode- Client storage
-Trạng thái: Hoàn tất
-Trạng thái 1: dễ ko wu
-
 ![image.png](Cooki%20Monster%20Secret%20Recipe/image.png)
 
 Đầu tiên với bài này mình có thể thấy ngay đầu bài đã hint cho mình liên quan đến cookie.
