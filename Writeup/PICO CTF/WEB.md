@@ -4,5 +4,5 @@
 
 [**Cookies**](WEB/Cookies.md)
 
-[**Cookies**](WEB/Power%20Cookie.md)
+[**Power Cookie**](WEB/Power%20Cookie.md)
 
