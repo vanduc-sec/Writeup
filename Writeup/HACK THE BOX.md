@@ -1,1 +1,11 @@
-# ![HTB](https://img.shields.io/badge/HackTheBox-172331?style=for-the-badge&logo=hackthebox&logoColor=9FEF00)
+<div align="center">
+  <img src="https://raw.githubusercontent.com/hackthebox/art/master/htb-logo.svg" width="250" alt="Hack The Box Logo">
+  <h1>HACK THE BOX WRITEUPS</h1>
+</div>
+
+---
+
+* 🚀 [**Starting Point**](./StartingPoint.md)
+* 🎯 [**Challenges**](./Challenges.md)
+* 🖥️ [**Machines**](./Machines.md)
+* 🔍 [**Sherlocks**](./Sherlocks.md)
