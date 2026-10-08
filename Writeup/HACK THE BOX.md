@@ -1,9 +1,7 @@
-<div align="center">
-  <img src="https://raw.githubusercontent.com/hackthebox/art/master/htb-logo.svg" width="250" alt="Hack The Box Logo">
-  <h1>HACK THE BOX WRITEUPS</h1>
-</div>
+# <img src="https://raw.githubusercontent.com/hackthebox/art/master/htb-logo.svg" width="60" valign="middle"> HACK THE BOX
 
 ---
+
 
 * 🚀 [**Starting Point**](./StartingPoint.md)
 * 🎯 [**Challenges**](./Challenges.md)
