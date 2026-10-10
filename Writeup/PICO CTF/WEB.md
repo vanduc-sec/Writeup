@@ -10,4 +10,7 @@
 
 [**n0s4n1ty 1**](WEB/n0s4n1ty%201.md)
 
+[**Forbidden Paths**](WEB/Forbidden%20Paths.md)
+
+
 
