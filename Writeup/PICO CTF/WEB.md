@@ -8,11 +8,11 @@
 
 * [**Logon**](WEB/Logon.md)
 
-* [**n0s4n1ty 1**](WEB/n0s4n1ty%201.md)
+* [**N0s4n1ty 1**](WEB/N0s4n1ty%201.md)
 
 * [**Forbidden Paths**](WEB/Forbidden%20Paths.md)
 
-* [**Crack the Gate 1**](<WEB/Crack the Gate 1.md>)
+* [**Crack The Gate 1**](<WEB/Crack The Gate 1.md>)
 
 * [**Old Sessions**](<WEB/Old Sessions.md>)
 
