@@ -1,11 +1,5 @@
 # Old Sessions
 
-Bản chất & Ví dụ: - Session lifecycle: Session phải được tạo, dùng, hết hạn, vô hiệu hóa đúng.- Old session: Token cũ còn dùng được là lỗi quản lý phiên.- Invalidation: Logout/reset password cần vô hiệu hóa session liên quan.
-Hệ sinh thái kiến thức: - Session reuse- Stale session- Cookie/session storage- Server session invalidation- Auth lifecycle
-Trạng thái: Chưa bắt đầu
-Trạng thái 1: Chưa bắt đầu
-Tên bài / Chủ đề: Old Sessions
-
 ![image.png](Old%20Sessions/image.png)
 
 Đề bài cho ta biết là có lỗ hổng ở phiên đăng nhập vì phiên cũ vẫn còn sống vĩnh viễn và ta sẽ cần vào tài khoản mà không cần mật khẩu
