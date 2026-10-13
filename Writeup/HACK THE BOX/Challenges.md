@@ -1,9 +1,9 @@
-# CHALLENGES
+# Challenges
 
-* [**Web**](./CHALLENGES/Web.md)
+* [**Web**](./Challenges/Web.md)
 
-* [**Forensics**](./CHALLENGES/Forensics.md)
+* [**Forensics**](./Challenges/Forensics.md)
 
-* [**Reversing**](./CHALLENGES/Reversing.md)
+* [**Reversing**](./Challenges/Reversing.md)
 
-* [**Crypto**](./CHALLENGES/Crypto.md)
+* [**Crypto**](./Challenges/Crypto.md)
