@@ -1,10 +1,5 @@
 # Most Cookies
 
-Bản chất & Ví dụ: - Flask signed cookie: Flask có thể lưu session trong cookie đã ký.- Signed không phải encrypted: Người dùng vẫn có thể thấy dữ liệu, nhưng sửa sẽ invalid nếu không có secret.- Secret key: Nếu yếu, có thể forge session.
-Hệ sinh thái kiến thức: - Flask session cookie- Signed cookie- Secret key- Wordlist brute force- Session integrity
-Trạng thái: Chưa bắt đầu
-Trạng thái 1: Chưa bắt đầu
-
 ![image.png](Most%20Cookies/image.png)
 
 Theo đề bài chúng ta thấy được đây là 1 bài liên quan đến cookie và cụ thể là Flask session cookies
