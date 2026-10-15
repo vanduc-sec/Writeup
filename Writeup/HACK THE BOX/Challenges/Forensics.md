@@ -1,6 +1,6 @@
 # Forensics
 
-- [data siege-htb-med(mã độc EZRATClient-http-encode](./Forensics/data%20siege-htb-med%28m%C3%A3%20%C4%91%E1%BB%99c%20EZRATClient-http-encode.md)
+- [Data Siege](./Forensics/Data%20Siege.md)
 - [deadly arthropod-htb-med](./Forensics/deadly%20arthropod-htb-med.md)
 - [Diagnostic-hackthebox-easy](./Forensics/Diagnostic-hackthebox-easy.md)
 - [emo-hackthebox-easy](./Forensics/emo-hackthebox-easy.md)
