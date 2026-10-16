@@ -22,6 +22,8 @@
 
 * [**JAuth**](<WEB/JAuth.md>)
 
+* [**Inspect HTML**](<WEB/Inspect HTML.md>)
+
 
 
 
