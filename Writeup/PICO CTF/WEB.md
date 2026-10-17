@@ -24,6 +24,7 @@
 
 * [**Inspect HTML**](<WEB/Inspect HTML.md>)
 
+* [**JaWT Scratchpad**](<WEB/JaWT Scratchpad.md>)
 
 
 
