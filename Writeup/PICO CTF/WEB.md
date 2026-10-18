@@ -26,5 +26,7 @@
 
 * [**JaWT Scratchpad**](<WEB/JaWT Scratchpad.md>)
 
+* [**Insp3ct0r**](<WEB/Insp3ct0r.md>)
+
 
 
