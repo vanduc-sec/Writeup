@@ -1,10 +1,5 @@
 # Unminify
 
-Bản chất & Ví dụ: - Minify: Code bị bỏ khoảng trắng, xuống dòng, đổi tên biến để nhỏ hơn, không phải mã hóa thật.- Pretty print: DevTools có nút {} để format lại JS cho dễ đọc.- String search: Tìm từ khóa như flag, pico, check, password trong source/assets.
-Hệ sinh thái kiến thức: - Minified JS/HTML- Beautify/Pretty print- Source formatting- String search
-Trạng thái: Hoàn tất
-Trạng thái 1: dễ có wu
-
 ![image.png](Unminify/image.png)
 
 Một bài web pico nữa nhưng mà bài này khá dễ 
