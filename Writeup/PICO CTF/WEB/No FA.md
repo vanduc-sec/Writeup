@@ -1,10 +1,5 @@
 # No FA
 
-Bản chất & Ví dụ: - 2FA/MFA: Yêu cầu thêm yếu tố ngoài password.- Session transition: Sau password đúng, user thường ở trạng thái “chưa hoàn tất 2FA”.- Broken flow: Nếu endpoint sau 2FA không kiểm trạng thái, có thể bypass.
-Hệ sinh thái kiến thức: - 2FA/MFA logic- Authentication factor- Session transition- Backup/step-up auth- Broken auth flow
-Trạng thái: Chưa bắt đầu
-Trạng thái 1: Chưa bắt đầu
-
 ![image.png](No%20FA/image.png)
 
 Bài web này cấp cho ta khá nhiều dữ liệu 
