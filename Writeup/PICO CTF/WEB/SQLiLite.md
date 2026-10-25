@@ -1,10 +1,5 @@
 # SQLiLite
 
-Bản chất & Ví dụ: - SQL injection: Input bị nối trực tiếp vào query làm thay đổi ý nghĩa SQL.- Login query: Dạng phổ biến là WHERE user='...' AND pass='...'.- SQLite: DB nhẹ, cú pháp có khác MySQL/PostgreSQL nhưng SQLi core giống nhau.
-Hệ sinh thái kiến thức: - SQL injection cơ bản- Login query- SQLite- Comment SQL- Boolean bypass
-Trạng thái: Chưa bắt đầu
-Trạng thái 1: Chưa bắt đầu
-
 ![image.png](SQLiLite/image.png)
 
 ![image.png](SQLiLite/image%201.png)
