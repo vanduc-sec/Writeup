@@ -40,6 +40,7 @@
 
 * [**MatchTheRegex**](<WEB/MatchTheRegex.md>)
 
+* [**SQLiLite**](<WEB/SQLiLite.md>)
 
 
 
