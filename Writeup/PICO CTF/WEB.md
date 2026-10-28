@@ -44,4 +44,7 @@
 
 * [**SQL Direct**](<WEB/SQL Direct.md>)
 
+* [**More SQLi**](<WEB/More SQLi.md>)
+
+
 
