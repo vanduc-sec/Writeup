@@ -1,10 +1,4 @@
-# 40
-
-Bản chất & Ví dụ: - Alternative syntax: SQL có nhiều cách biểu diễn cùng logic.- Operator substitution: Khi một toán tử bị chặn, có thể còn toán tử/hàm khác tương đương.- Blacklist weakness: Danh sách cấm dễ thiếu case.
-Hệ sinh thái kiến thức: - SQLi filter nâng hơn- Alternative syntax- Comment/concat- Operator substitution- Blacklist weakness
-Trạng thái: Chưa bắt đầu
-Trạng thái 1: Chưa bắt đầu
-Tên bài / Chủ đề: Web Gauntlet 2
+# Web Gauntlet 2
 
 ![image.png](Web%20Gauntlet%202/image.png)
 
