@@ -55,3 +55,5 @@
 * [**Web Gauntlet**](<WEB/Web Gauntlet.md>)
 
 * [**Web Gauntlet 2**](<WEB/Web Gauntlet 2.md>)
+
+* [**Web Gauntlet 3**](<WEB/Web Gauntlet 3.md>)
