@@ -59,3 +59,5 @@
 * [**Web Gauntlet 3**](<WEB/Web Gauntlet 3.md>)
 
 * [**Sql Map1**](<WEB/Sql Map1.md>)
+
+* [**Trickster**](<WEB/Trickster.md>)
