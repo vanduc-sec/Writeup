@@ -67,3 +67,5 @@
 * [**Crack the Gate 2**](<WEB/Crack the Gate 2.md>)
 
 * [**login**](<WEB/login.md>)
+
+* [**Hashgate**](<WEB/Hashgate.md>)
